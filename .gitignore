@@ -1,43 +1,39 @@
 ```
-# Python
+# Dependencies
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Dependencies
+.Python
+env/
 venv/
 .venv/
 .env
 .env.local
-*.env.*
-
-# Logs
+.env.*
+pip-log.txt
+pipenv.lock
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-
-# Temporary files
 *.tmp
 *.swp
 *.swo
-
-# OS generated files
 .DS_Store
 Thumbs.db
-
-# Build artifacts
-dist/
-build/
-.coverage
-coverage/
-htmlcov/
-
-# Editors
 .vscode/
 .idea/
-
-# MyPy
+node_modules/
+dist/
+build/
+target/
+.gradle/
 .mypy_cache/
-
-# Pytest
 .pytest_cache/
+htmlcov/
 ```
